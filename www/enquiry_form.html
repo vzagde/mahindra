@@ -1,0 +1,249 @@
+<!-- Page, "data-page" contains page name -->
+<div data-page="enquiry_form" class="page">
+  <!-- Top Navbar. In Material theme it should be inside of the page-->
+  <div class="panel-overlay"></div>
+  <div class="panel panel-right panel-cover menu_sub_container">
+    <div class="content-block">
+      <div class="vz-sidebar-menus">
+        <div class="row">
+            <ul class="col-100 mar0">
+                <li class="vz-sidebar-menu-header col-100">Product</li>
+                <ul class="col-100">
+                    <li class="">Video</li>
+                    <li class="">Specification</li>
+                    <li class="">Book Now</li>
+                </ul>
+                <li class="vz-sidebar-menu-header col-100">About</li>
+                <ul class="col-100">
+                    <li class="about1">Mahindra Group</li>
+                    <li class="">Mahindra Group Video</li>
+                    <li class="">Mahindra Powerol</li>
+                    <li class="">Mahindra Powerol Videos</li>
+                </ul>
+            </ul>
+            <ul class="col-50 mar0">
+                <li class="vz-sidebar-menu-header col-100">Tools</li>
+                <ul class="col-100">
+                    <li class="">Load Calculator</li>
+                    <li class="">Cost Benefit Analysis</li>
+                </ul>
+            </ul>
+            <ul class="col-50 mar0">
+                <li class="col-100 vz-sidebar-menu-header">Enquiry Form</li>
+                <ul class="col-100">
+                    <li class="">Listed Bookings</li>
+                    <li class="">New Enquiry</li>
+                </ul>
+            </ul>
+            <ul class="col-50 mar0">
+                <li class="col-100 vz-sidebar-menu-header">5 ka Punch</li>
+                <ul class="col-100">
+                    <li class="">Easy Finance</li>
+                    <li class="">Pease of Mind</li>
+                    <li class="">Fuel Intelligent</li>
+                    <li class="">Fastest Delivery</li>
+                    <li class="">Power Band</li>
+                </ul>
+            </ul>
+            <ul class="col-50 mar0">
+                <li class="col-100 vz-sidebar-menu-header">Customer Care</li>
+                <ul class="col-100">
+                    <li class="">FAQs</li>
+                    <li class="">Form</li>
+                </ul>
+            </ul>
+            <ul class="col-100 mar0">
+                <li class="col-100 vz-sidebar-menu-header" class="">Locate Us</li>
+            </ul>
+            <ul class="col-100">
+                <a href="#" class="button button-big button-red" onclick="logout()">LOGOUT</a>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar">
+      <div class="navbar-inner">
+          <div class="right">
+              <a href="home.html" class="link icon-only vz-sidebar-icon" onclick="goto_page('home.html')">
+                  <img class="right_home" src="img/home.png">
+              </a>
+              <a href="#" data-panel="right" class="link icon-only open-panel vz-sidebar-icon">
+                  <img class="right_menu" src="img/menu.png">
+              </a>
+          </div>
+      </div>
+  </div>
+
+  <!-- Scrollable page content -->
+  <div class="page-content">
+
+      <div class="powerol_bg_enquiry_form">
+          <div class="top_bg enquiry_form_blue_top_bg">
+            <img class="left_arrow" src="img/left_arrow.png">
+            <h1 class="top_headers">ENQUIRY FORM</h1>
+          </div>
+          <div class="enquiry_form_content">
+                <h2 class="book_heading">Enquiry for Diesel Generators</h2>
+                <p style="margin-top: 3%;"><a id="tab1_button" href="#" class="button button-big button-round">New Enquiry</a></p>
+                <p><a id="tab2_button" href="#" class="button button-big button-round active" style="left: -2%;">Listed Bookings</a></p>
+                <!-- <p><a id="tab1_button" href="#" class="tab-link button button-round enquiry_form_tabs_button"></a></p>
+                <p><a id="tab2_button" href="#" class="tab-link button button-round enquiry_form_tabs_button" style="left: -2%;"></a></p> -->
+                <!-- <div class="buttons-row">
+                  <a href="#tab1" class="tab-link active button">Tab 1</a>
+                  <a href="#tab2" class="tab-link button">Tab 2</a>
+                </div> -->
+                <!-- <input class="book_now" type="submit" value="BOOK NOW" name=""> -->
+          </div>
+          <div class="findus_dealer_content">
+            <div class="findus_dealer_content_child">
+              <div class="tabs">
+                <div id="tab1" class="tab active">
+                  <div class="content-block">
+                     <div class="book_now_input" style="top: 223% !important;width:90%;">
+                          <div class="col-50">
+                            <input type="text" name="" placeholder="Full Name">
+                          </div>
+
+                          <div class="col-50">
+                            <input type="text" name="" placeholder="Company">
+                          </div>
+
+                          <div class="col-50">
+                            <input type="text" name="" placeholder="Mobile No">
+                          </div>
+
+                          <div class="col-50">
+                            <input type="text" name="" placeholder="Email-ID">
+                          </div>
+
+                          <div class="col-50">
+                            <input type="text" name="" placeholder="Select">
+                          </div>
+
+                          <div class="col-50">
+                            <input type="text" name="" placeholder="Address">
+                          </div>
+
+
+                          <div class="col-50">
+                            <input type="text" name="" placeholder="Select">
+                          </div>
+
+                          <div class="col-50">
+                            <input type="text" name="" placeholder="Select">
+                          </div>
+
+                    <input class="submit_enq" type="submit" value="Submit">
+                          
+                    </div>
+
+                  
+                  </div>
+
+
+                </div>
+
+
+                <div id="tab2" class="tab">
+                  <div class="content-block">
+                    <div class="enquiry_list" style="margin-top: 7%;margin-left: 3%;border-left: 6px solid #3c73c0;">
+                        <a class="enquiry_list_edit_button" href=""><img  src="img/edit.png"></a>
+                        <table>
+                          <tr>
+                            <td class="vz_inner_content_left">Name</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">Krunal Deshmukh</td>
+                            <td class="vz_inner_content_left">Product Range</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">5 kVA - 15 kVA</td>
+                          </tr>
+                          <tr>
+                            <td class="vz_inner_content_left">Compnay</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">Kreaserve.</td>
+                            <td class="vz_inner_content_left">State</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">Maharashtra</td>
+                          </tr>
+                          <tr>
+                            <td class="vz_inner_content_left">Mobile No.</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">9870687870</td>
+                            <td class="vz_inner_content_left">Segment</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">Other</td>
+                          </tr>
+                          <tr>
+                            <td class="vz_inner_content_left">Email ID</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">abc@gmail.com</td>
+                            <td class="vz_inner_content_left">Are you an existing DG user?</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">No</td>
+                          </tr>
+                        </table>
+                    </div>
+                    <div class="enquiry_list" style="margin-top: 3%;margin-left: 3%;border-left: 6px solid #e61938;">
+                      <a class="enquiry_list_edit_button" href=""><img  src="img/edit.png"></a>
+                      <table>
+                          <tr>
+                            <td class="vz_inner_content_left">Name</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">Krunal Deshmukh</td>
+                            <td class="vz_inner_content_left">Product Range</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">5 kVA - 15 kVA</td>
+                          </tr>
+                          <tr>
+                            <td class="vz_inner_content_left">Compnay</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">Kreaserve.</td>
+                            <td class="vz_inner_content_left">State</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">Maharashtra</td>
+                          </tr>
+                          <tr>
+                            <td class="vz_inner_content_left">Mobile No.</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">9870687870</td>
+                            <td class="vz_inner_content_left">Segment</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">Other</td>
+                          </tr>
+                          <tr>
+                            <td class="vz_inner_content_left">Email ID</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">abc@gmail.com</td>
+                            <td class="vz_inner_content_left">Are you an existing DG user?</td>
+                            <td class="vz_inner_content_dot">:</td>
+                            <td class="vz_inner_content_right">No</td>
+                          </tr>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <img class="left_logo" src="img/logo.png">
+          <img class="right_logo" src="img/right_logo_silver.png" style="position: fixed !important;">
+      </div>
+
+  </div>
+</div>              
+
+
+
+
+
+
+
+
+<!-- ////////////////// -->
+
+
+
+              
